@@ -137,6 +137,13 @@ def ensure_dataset(
 #         gdrive_id="129vX_GF4vUgwRlyLpx5BNPf6lI2n89Wp",
 #     )
 #
+#   osu_small_animals (alternative for 01, 02, 04, 04_lora, 05 — split by site):
+#     dataset_dir = ensure_dataset(
+#         DATA_PATH, "osu_small_animals.tar.gz", "osu_small_animals",
+#         gdrive_id="1FhsFLnFVNKzAMH7dOm2NRUBQJ0gv9u40",
+#         hf_repo="marco-willi/camera-trap-osu-small-animals",
+#     )
+#
 #   abo_furniture (default for 03_retrieval):
 #     dataset_dir = ensure_dataset(
 #         DATA_PATH, "abo_furniture.tar.gz", "abo",

@@ -1,3 +1,16 @@
+---
+license: cdla-permissive-1.0
+task_categories:
+  - image-classification
+tags:
+  - camera-traps
+  - wildlife
+  - ecology
+pretty_name: Ohio Small Animals — Species Classroom Subset
+size_categories:
+  - 10K<n<100K
+---
+
 # Ohio Small Animals — Species Classroom Subset v1.0
 
 ## Summary
@@ -16,6 +29,17 @@ the test score measures how well a model works at sites it has not seen.
 - **Attribution:** Balasubramaniam S., "Optimized Classification in Camera Trap
   Images: An Approach with Smart Camera Traps, Machine Learning, and Human
   Inference", Master's thesis, The Ohio State University, 2024
+
+## License
+
+This subset is published under the
+[Community Data License Agreement — Permissive, Version 1.0](https://cdla.dev/permissive-1-0/),
+the same license as the source dataset. If you use it, please cite the source above.
+
+**Notice of changes:** these files are modified from the original Ohio Small Animals
+data. Images were selected, renamed, resized to max 1024 px and re-encoded as JPEG,
+and the labels and metadata were rewritten into the `metadata.csv` files (see
+Curation below).
 
 ## Curation
 

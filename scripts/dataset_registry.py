@@ -23,6 +23,7 @@ GDRIVE_IDS = {
     "kgalagadi.tar.gz": "129vX_GF4vUgwRlyLpx5BNPf6lI2n89Wp",
     "ser_sampled.tar.gz": "1SnlMXzVQVbOpsWMVmIdzQA_ZxCneO-O6",
     "ser_sampled_cropped.tar.gz": "1sfByP9AY3XnNVFdt18LDkC31HnWqajRQ",
+    "osu_small_animals.tar.gz": "1FhsFLnFVNKzAMH7dOm2NRUBQJ0gv9u40",
     # Optional alternative datasets — GDrive only (no HF mirror due to licensing)
     "cats_vs_dogs.tar.gz": "1lUh43v0DGzOil7AOHnY3HdbrYK6eATuP",
     "concrete_cracks.tar.gz": "1IGMcB90KxJttstneYVZCpybR7Easz2JJ",
@@ -36,4 +37,5 @@ HF_REPOS = {
     "abo_furniture.tar.gz": "marco-willi/abo_furniture",
     "cct20.tar.gz": "marco-willi/camera-trap-cct20",
     "kgalagadi.tar.gz": "marco-willi/camera-trap-kgalagadi",
+    "osu_small_animals.tar.gz": "marco-willi/camera-trap-osu-small-animals",
 }
