@@ -1,0 +1,4 @@
+# Colab-extras only (packages not pre-installed on Colab)
+torchinfo
+gdown
+huggingface_hub
