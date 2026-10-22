@@ -1,12 +1,12 @@
-# Exercises for CAS Deep Learning - Module Computer Vision with Deep Learning (Part 1)
+# Exercises for CAS Agentic AI & Deep Learning - Module Computer Vision with Deep Learning (Part 1)
 
-This repository contains exercises for the CAS Deep Learning - Module Computer Vision with Deep Learning (Part 1).
+This repository contains exercises for the CAS Agentic AI & Deep Learning - Module Computer Vision with Deep Learning (Part 1).
 
 There are several ways to work on the assignments:
 
 - Google Colab (easiest)
+- Local install with uv (reproducible env from the lockfile, recommended)
 - Local install with pip
-- Local install with uv (reproducible env from the lockfile)
 
 ## Google Colab
 
@@ -77,18 +77,18 @@ Open in Google Colab:
 
 ## Local Install
 
-### Option A — pip
-
-Install the direct dependencies into your current Python environment:
-
-```
-pip install -r requirements.txt
-```
-
-### Option B — uv
+### Option A (Recommended) — uv
 
 uv installs the exact pinned versions from `uv.lock`, giving a reproducible environment. If you do not have uv yet, follow the official install instructions: <https://docs.astral.sh/uv/>.
 
 ```
 uv sync --no-dev
+```
+
+### Option B — pip
+
+Install the direct dependencies into your current Python environment:
+
+```
+pip install -r requirements.txt
 ```
