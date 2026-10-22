@@ -1,6 +1,6 @@
-# Exercises for CAS Deep Learning - Module Computer Vision with Deep Learning (Part 1)
+# Exercises for CAS Agentic AI & Deep Learning - Computer Vision (Part 1)
 
-This repository is used for the distribution of exercises for the CAS Deep Learning - Module Computer Vision with Deep Learning (Part 1).
+This repository is used for the distribution of exercises for the CAS Agentic AI & Deep Learning - Module Computer Vision with Deep Learning (Part 1).
 
 There are several ways to work on the assignments:
 
